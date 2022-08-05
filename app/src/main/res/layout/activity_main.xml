@@ -38,17 +38,34 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="25dp"
+            android:id="@+id/panda"
+            android:layout_width="31dp"
+            android:layout_height="27dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/panda">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/backspace"
+            android:layout_width="380dp"
             android:layout_height="25dp"
             android:src="@drawable/backspace"
-            android:layout_gravity="bottom"></ImageView>
+            android:layout_gravity="bottom"
+            android:scaleType="fitEnd"
+            android:layout_marginBottom="10dp"
+            >
+
+        </ImageView>
 
 
     </LinearLayout>
 
     <View
         android:layout_width="380dp"
-        android:layout_height="0.7dp"
+        android:layout_height="1dp"
         android:background="@color/white"
         android:focusable="false"
         android:layout_gravity="center"
